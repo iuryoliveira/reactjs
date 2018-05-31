@@ -1,5 +1,5 @@
-modules.export = {
-	imprimir = function(text){
-		console.log(${text})
-	}
+function info(text){
+	console.log(`Info: ${text}`)
 }
+
+module.exports = { info }

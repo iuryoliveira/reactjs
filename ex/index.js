@@ -1,3 +1,3 @@
-const logger = require('./logger.js')
+const logger = require('./logger')
 
-logger.imprimir("Bem vindo!")
+logger.info("Usando CommonJS!")
