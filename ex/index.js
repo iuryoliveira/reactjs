@@ -5,5 +5,10 @@ const produto = {
 }
 
 function clone(objeto){
-    return { ...objeto} // ... representam o operador spread   
+    return { ...objeto } // ... representam o operador spread   
 }
+
+const novoProduto = clone(produto)
+novoProduto.nome = 'Caneta BIC azul'
+
+console.log(produto, novoProduto)
